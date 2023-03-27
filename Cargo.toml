@@ -1,0 +1,15 @@
+[package]
+name = "ble_packet_collect_backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0-rc.2", features = ["json"] }
+tokio = { version = "1.26.0", features = ["full"]}
+sqlx = { version = "0.5.0", features = [ "runtime-tokio-rustls", "macros",  "migrate", "postgres", ]}
+rocket_db_pools = { version = "0.1.0-rc.2", features = ["sqlx_postgres"] }
+serde = "1.0.157"
+envy = "0.4.2"
+anyhow = { version = "1.0.70" }
