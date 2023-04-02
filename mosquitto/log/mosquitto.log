@@ -1,0 +1,6 @@
+1680102557: mosquitto version 2.0.15 starting
+1680102557: Config loaded from /mosquitto/config/mosquitto.conf.
+1680102557: Opening ipv4 listen socket on port 1883.
+1680102557: Opening ipv6 listen socket on port 1883.
+1680102557: Opening websockets listen socket on port 9001.
+1680102557: mosquitto version 2.0.15 running
